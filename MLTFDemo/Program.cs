@@ -10,7 +10,8 @@ namespace MLTFDemo
     class Program
     {
         public const int FeatureLength = 600;
-        static readonly string _modelPath = Path.Combine(Environment.CurrentDirectory, "sentiment_model");
+        //static readonly string _modelPath = Path.Combine(Environment.CurrentDirectory, "sentiment_model");
+        static readonly string _modelPath = "/media/data/";
 
         static void Main(string[] args)
         {
